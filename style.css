@@ -10,8 +10,8 @@ body {
     background-size: 100%,100%;
     background-repeat: no-repeat;
     background-position: center center;
-    background-attachment: fixed;
     margin: 0%;
+    border-bottom: solid darkred 20px;
     
 }
 .menu {
@@ -93,4 +93,9 @@ body {
     justify-content: space-between;
     gap: 20rem;
     padding-right: 5rem;
+    margin-right:5vw;
+}
+
+.list:last-child {
+    text-align: right;
 }
