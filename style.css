@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&family=Spirax&display=swap');
+
+body {
+    width: 100%; 
+    height: 100%; 
+    background-image: url(hot.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    margin: 0%;
+}
+
+.menu {
+    height: 70px;
+    font-size: 30px;
+    display:flex;
+    width: 100%;
+    position: fixed;
+    color: white;
+    background-color: rgba(165,42,42,0.5);
+    font-family: "Spirax", system-ui;
+    font-style: normal; 
+    line-height: 1rem;
+    justify-content: center;
+    margin-top: 0;
+}
+
+.menu > * {
+    margin-left: 40px;
+}
+.menu > *:hover {
+    cursor: pointer;
+}
+
+.hot {
+    display: flex;
+    font-family: "Spirax",system-ui;
+    color: darkred;
+    font-size: 65px;
+    position: absolute;
+    justify-self: center;
+    right: 50%;
+    left:50%;
+    top: 3rem;
+}
+
+.pa {
+    font-size: 25px;
+    font-family: "Poiret One";
+    color: white;
+    background-color: rgba(139, 0, 0, 0.65);
+    max-width: 50%;
+    position: absolute;
+    display: flex;
+    top: 38%;
+    left: 20%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    line-height: 1rem;
+}
+
+.pa2 {
+    font-size: 25px;
+    font-family: "Poiret One";
+    color: white;
+    background-color: rgba(139, 0, 0, 0.65);
+    max-width: 50%;
+    position: absolute;
+    display: flex;
+    left: 35%;
+    top: 50%;
+    max-width: 50%;
+    min-width: 44%;
+    justify-content: center;
+    line-height: 1rem;
+}
+
+.list {
+    font-family: "Poiret One";
+    font-size: 25px;
+    color: white;
+    background-color: rgba(0,0,0,0.65);
+    position: absolute;
+    display: flex;
+    top:62%;
+    left: 25%;
+    min-width: 30%;
+    padding-left: 5rem;
+    justify-content: space-between;
+    gap: 20rem;
+    padding-right: 5rem;
+}
