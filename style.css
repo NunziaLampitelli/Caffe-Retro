@@ -30,7 +30,7 @@
 .menu > * {
     margin-left: 40px;
 }
-.menu > *:hover {
+.menu p:hover {
     cursor: pointer;
 }
 
@@ -120,16 +120,101 @@
 }
 
 .juicy p {
-    font-size: 40px;
-    padding: 0.5rem;
+    font-size: 30px;
+    padding: 1rem;
     font-family: "Poiret One";
     color: white;
     background-color: rgba(139, 0, 0, 0.65);
     position:absolute;
     display: flex;
     top: 38%;
-    left: 20%;
+    left: 15%;
     min-width: 50%;
     margin-top: 10%;
     justify-content: center;
+}
+
+#it {
+    top: 65%;
+    left: 30%;
+}
+
+.list2 {
+    font-family: "Poiret One";
+    font-size: 25px;
+    color: white;
+    background-color: rgba(0,0,0,0.65);
+    position: absolute;
+    display: flex;
+    top:170%;
+    left: 25%;
+    min-width: 30%;
+    padding-left: 5rem;
+    justify-content: space-between;
+    gap: 20rem;
+    padding-right: 5rem;
+    margin-right:5vw;
+}
+
+.list2:last-child:last-child {
+    text-align: right;
+
+}
+
+.cosypage {
+    background-size: 100%,100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: 0%;
+    min-width: 100%;
+    min-height: 100%;
+    
+}
+
+h1 {
+    display: flex;
+    font-family: "Spirax", system-ui;
+    color: darkred;
+    justify-content: center;
+    font-size: 100px;
+    position: relative;
+    top: 15%;
+}
+
+.last p {
+    font-size: 30px;
+    padding: 1rem;
+    font-family: "Poiret One";
+    color: white;
+    background-color: rgba(139, 0, 0, 0.65);
+    position:relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    margin-left: 15%;
+    max-width: 50%;
+
+}
+
+#last2 {
+    margin-top: 1%;
+    margin-left: 30%;
+    position: relative;
+}
+
+.info {
+    font-family: "Poiret One";
+    font-size: 25px;
+    color: white;
+    background-color: rgba(0,0,0,0.65);
+    position: absolute;
+    display: flex;
+    top:280%;
+    left: 25%;
+    min-width: 30%;
+    padding-left: 3rem;
+    justify-content: space-between;
+    gap: 20rem;
+    padding-right: 3rem;
+    margin-right:5vw;
 }
