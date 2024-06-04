@@ -1,22 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poiret+One&family=Spirax&display=swap');
 
-html {
-    padding: 0;
+body {
     margin: 0;
+    padding:0;
+    height: 100vh;
+    width: 100vw;
 }
+
 .bg-image {
     background-size: 100vw,100vh;
     background-repeat: no-repeat;
-    background-position: center center;
-    margin: 0%;
+    background-position: cover;
+    margin: auto;
     border-bottom: solid darkred 13px;
     min-width: 100vw;
     min-height: 100vh;
-    
 }
 
-
+header {
+    margin: 0;
+    border: 0;
+}
 
 .menu {
     height: 70px;
@@ -53,13 +58,14 @@ a {
     background-image: url('hot.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    display: flex;
+    height: 100vh;
+    border-bottom: solid darkred 13px;
+}
+.hot h1 {
     font-family: "Spirax",system-ui;
     color: darkred;
     font-size: 70px;
-    padding-top: 5px;
-    height: 100vh;
-    border-bottom: solid darkred 13px;
+
 }
 
 .pa {
@@ -176,8 +182,14 @@ a {
 }
 
 .cosypage {
-    background-size: 100%,100%;
+    background-image: url('cosy.jpg');
     background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Spirax",system-ui;
+    color: darkred;
+    font-size: 70px;
+    padding-top: 5px;
+    height: 100vh;
     background-position: center center;
     margin: 0%;
     min-width: 100%;
@@ -234,7 +246,7 @@ h1 {
     text-align: left;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 375px), screen and (max-height: 670px) ; {
     .bg-image {
         background-size: 100vw,100vh;
         background-repeat: no-repeat;
@@ -244,11 +256,26 @@ h1 {
     
     }
     .menu {
+        justify-self: center;
         font-size: 100px;
         display:flex;
         position: fixed;
         z-index: 10;
-}
-     .hot {
+        margin-left: 50%;
+        margin-right: 50%;
+    }
+     .cosypage {
+        background-image: url('cosy.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh;
+   }
+   .hot h1 {
+    font-size: 100px;
+   }
+   .pa {
+    position: absolute;
+    margin-left: 50%;
+    margin-right: 50%;
    }
 }
