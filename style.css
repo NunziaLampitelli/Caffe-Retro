@@ -1,17 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poiret+One&family=Spirax&display=swap');
 
-
+html {
+    padding: 0;
+    margin: 0;
+}
 .bg-image {
-    background-size: 100%,100%;
+    background-size: 100vw,100vh;
     background-repeat: no-repeat;
     background-position: center center;
     margin: 0%;
     border-bottom: solid darkred 13px;
-    min-width: 100%;
-    min-height: 100%;
+    min-width: 100vw;
+    min-height: 100vh;
     
 }
+
+
+
 .menu {
     height: 70px;
     font-size: 30px;
@@ -44,16 +50,16 @@ a {
 }
 
 .hot {
+    background-image: url('hot.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     font-family: "Spirax",system-ui;
     color: darkred;
     font-size: 70px;
-    position: absolute;
-    margin-top: 0;
     padding-top: 5px;
-    margin-left: 43%;
-    margin-right: 35%;
-    max-height: 10px;
+    height: 100vh;
+    border-bottom: solid darkred 13px;
 }
 
 .pa {
@@ -102,20 +108,19 @@ a {
     gap: 20rem;
     padding-right: 5rem;
     margin-right:5vw;
+    text-align: left;
 }
 
-.list:last-child {
+#prices {
     text-align: right;
 }
 
 .juicypage {
-    background-size: 100%,100%;
+    background-image: url('juicy.jpg');
+    background-size: cover;
     background-repeat: no-repeat;
-    background-position: center center;
-    margin: 0%;
     border-bottom: solid darkred 13px;
-    min-width: 100%;
-    min-height: 100%;
+    height: 100vh;
 }
 
 .juicy{
@@ -165,7 +170,7 @@ a {
     margin-right:5vw;
 }
 
-.list2:last-child:last-child {
+.list2:last-child {
     text-align: right;
 
 }
@@ -226,4 +231,24 @@ h1 {
     gap: 20rem;
     padding-right: 3rem;
     margin-right:5vw;
+    text-align: left;
+}
+
+@media screen and (max-width: 375px) {
+    .bg-image {
+        background-size: 100vw,100vh;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin: 0%;
+        border-bottom: solid darkred 13px;
+    
+    }
+    .menu {
+        font-size: 100px;
+        display:flex;
+        position: fixed;
+        z-index: 10;
+}
+     .hot {
+   }
 }
