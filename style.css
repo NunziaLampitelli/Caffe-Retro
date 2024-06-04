@@ -26,12 +26,20 @@
     justify-content: center;
     margin-top: 0;
 }
-
 .menu > * {
-    margin-left: 40px;
+    margin-left: 45px;
+    margin-right: 45px;
 }
 .menu p:hover {
     cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+.menu a:visited {
+    text-decoration: none;
+    color: white;
 }
 
 .hot {
@@ -42,8 +50,8 @@
     position: absolute;
     margin-top: 0;
     padding-top: 5px;
-    margin-left: 40%;
-    margin-right: 60%;
+    margin-left: 43%;
+    margin-right: 35%;
     max-height: 10px;
 }
 
