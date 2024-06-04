@@ -25,6 +25,7 @@
     line-height: 1rem;
     justify-content: center;
     margin-top: 0;
+    z-index: 10;
 }
 .menu > * {
     margin-left: 45px;
